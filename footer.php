@@ -1,17 +1,23 @@
 <div class="container">
   <footer class="py-3 my-4">
-    <div class="rows">
-      <div class="col-md-4">
+    <div class="row">
+      <div class="col-6 col-md-2 mb-3">
         <h5>Navigation</h5>
-        <ul class=" nav flex-column justify-content-left border-bottom pb-3 mb-3 ">
+        <ul class="nav flex-column">
           <?php 
           $class = "nav-item mb-2 "; 
-          require 'menu.php' ?>
+          require 'menu.php' 
+          ?>
         </ul>
-      </div>
+      </div>  
+    <div class="d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top">
+      <p>© 2023 Company, Inc. All rights reserved.</p>
+      <ul class="list-unstyled d-flex">
+        <li class="ms-3"><a class="link-body-emphasis" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#twitter"></use></svg></a></li>
+        <li class="ms-3"><a class="link-body-emphasis" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#instagram"></use></svg></a></li>
+        <li class="ms-3"><a class="link-body-emphasis" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#facebook"></use></svg></a></li>
+      </ul>
     </div>
-    
-    <p class="text-center text-body-secondary">© 2023 Dian's Tutoriel - PHP</p>
   </footer>
 </div>
 
