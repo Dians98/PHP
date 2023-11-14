@@ -1,17 +1,17 @@
 <div class="container">
-  <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
-    <div class="col-md-4 d-flex align-items-center">
-      <a href="/" class="mb-3 me-2 mb-md-0 text-body-secondary text-decoration-none lh-1">
-        <svg class="bi" width="30" height="24"><use xlink:href="#bootstrap"></use></svg>
-      </a>
-      <span class="mb-3 mb-md-0 text-body-secondary">© 2023 Company, Inc</span>
+  <footer class="py-3 my-4">
+    <div class="rows">
+      <div class="col-md-4">
+        <h5>Navigation</h5>
+        <ul class=" nav flex-column justify-content-left border-bottom pb-3 mb-3 ">
+          <?php 
+          $class = "nav-item mb-2 "; 
+          require 'menu.php' ?>
+        </ul>
+      </div>
     </div>
-
-    <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
-      <li class="ms-3"><a class="text-body-secondary" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#twitter"></use></svg></a></li>
-      <li class="ms-3"><a class="text-body-secondary" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#instagram"></use></svg></a></li>
-      <li class="ms-3"><a class="text-body-secondary" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#facebook"></use></svg></a></li>
-    </ul>
+    
+    <p class="text-center text-body-secondary">© 2023 Dian's Tutoriel - PHP</p>
   </footer>
 </div>
 
