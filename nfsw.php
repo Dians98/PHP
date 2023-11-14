@@ -1,3 +1,5 @@
+<?php require 'header.php' ?>
+
 <?php 
 
     $age = null;
@@ -13,7 +15,7 @@
     /* Vérifier s'il existe déjà un cookie */
     if(!empty($_COOKIE['dob']))
     {
-        $age =  (int) date('Y') - $_POST['dob'];
+        $age =  (int) date('Y') - $_COOKIE['dob'];
     }
     
 ?>
@@ -36,3 +38,5 @@
             <button type ="submit">Accepter</button>
     </form>
 <?php endif ?>
+
+<?php require 'footer.php' ?>
