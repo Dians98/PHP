@@ -6,7 +6,7 @@
         <ul class="nav flex-column">
           <?php 
           $class = "nav-item mb-2 "; 
-          require 'menu.php' 
+          require 'elements/menu.php';
           ?>
         </ul>
       </div>  
